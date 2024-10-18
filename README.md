@@ -96,7 +96,7 @@ sudo apt install libvorbis-dev
 
 Assume that you have tow input file named: v1.mp4 v2.mp4 ,then output file is out.mp4
 ```shell
-ffmpeg ffmpeg -i v1.mp4 -i v2.mp4 -filter_complex "gltransition=duration=3:offset=1:source=GlitchMemories.glsl" -y out.mp4
+ffmpeg -i v1.mp4 -i v2.mp4 -filter_complex "gltransition=duration=3:offset=1:source=GlitchMemories.glsl" -y out.mp4
 ```
 Available args are : *duration* , *offset* , *source*
 
