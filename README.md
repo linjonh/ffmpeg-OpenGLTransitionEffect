@@ -2,7 +2,7 @@
 An OpenGLTransition fx lib integrated to ffmpeg. The project Base on FFmpeg Version 7.1. Just apply code patch to ffmpeg 7.1 branch unsing git tools.  Then build ffmpeg to roll out your ffmpeg excuetable  program.
 
 # Applay patch
-Download reposetory diff patch to apply for ffmpeg soruce.
+Download repository diff patch to apply for ffmpeg soruce.
 
 # build ffmpeg
 
@@ -107,7 +107,7 @@ Available args are : *duration* , *offset* , *source*
 Download and use other GLSL effects,you can find here [gl-transition](https://gl-transitions.com/gallery?page=6).
 
 # Reffercen project
-- Thanks to [transitive-bullshit/ffmpeg-gl-transition](https://github.com/transitive-bullshit/ffmpeg-gl-transition) on github reposetory.
+- Thanks to [transitive-bullshit/ffmpeg-gl-transition](https://github.com/transitive-bullshit/ffmpeg-gl-transition) on github repository.
 - [ffmpeg](https://github.com/FFmpeg/FFmpeg)
 - [GLEW](http://glew.sourceforge.net/) 
 - [glfw](http://www.glfw.org/)
