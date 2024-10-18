@@ -91,3 +91,25 @@ sudo apt install libvorbis-dev
   make
   sudo make install
 ```
+
+# Usage of transition effect of video
+
+Assume that you have tow input file named: v1.mp4 v2.mp4 ,then output file is out.mp4
+```shell
+ffmpeg ffmpeg -i v1.mp4 -i v2.mp4 -filter_complex "gltransition=duration=3:offset=1:source=GlitchMemories.glsl" -y out.mp4
+```
+Available args are : *duration* , *offset* , *source*
+
+- duration : means transition times.
+- offest : means how start transition effect delay offset times.
+- source : means use the GLSL（openGL shader language）shader effect file. 
+
+Download and use other GLSL effects,you can find here [gl-transition](https://gl-transitions.com/gallery?page=6).
+
+# Reffercen project
+- Thanks to [transitive-bullshit/ffmpeg-gl-transition](https://github.com/transitive-bullshit/ffmpeg-gl-transition) on github reposetory.
+- [ffmpeg](https://github.com/FFmpeg/FFmpeg)
+- [GLEW](http://glew.sourceforge.net/) 
+- [glfw](http://www.glfw.org/)
+
+
